@@ -1,0 +1,11 @@
+---
+applications:
+- disk_quota: 1024M
+  name: JoeJakeVinceWill
+  domain: mybluemix.net
+  host: myTestApp99999
+  memory: 256M
+  instances: 1
+  timeout: 180
+  buildpack: sdk-for-nodejs
+  command: npm start
